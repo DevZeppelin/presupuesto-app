@@ -1,10 +1,11 @@
 .alert p {
   margin-bottom: 0!important;
 }
+
 body {
   background: #000428;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #33922b, #063108);  
-  background: linear-gradient(to right, #33922b, #063108); 
+  background: -webkit-linear-gradient(to right, #3dbaca, #074549);  
+  background: linear-gradient(to right, #3dbaca, #074549); 
   margin: 0;
   padding: 0;
   font-family: sans-serif;
@@ -16,7 +17,7 @@ header {
   padding:20px;
 }
 .contenido-principal {
-  background-color: white;
+  background-color: rgb(202, 223, 224);
   padding: 30px;
   border-radius: 20px;
 }
@@ -40,7 +41,7 @@ h1 {
 h2 {
   font-family: 'Raleway', sans-serif;
   font-weight: 100;
-  color:#004e92;
+  color:#315bb4;
   margin-bottom:30px;
   font-size:3rem!important;
   text-align: center;
@@ -60,12 +61,12 @@ h2 {
 }
 .alert-primary {
   color: #004085;
-  background-color: #cce5ff;
+  background-color: #bccfe4;
   border-color: #b8daff;
 }
 .alert-success {
   color: #155724;
-  background-color: #d4edda;
+  background-color: #8ad49b;
   border-color: #c3e6cb;
 }
 .alert-danger {
