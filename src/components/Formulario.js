@@ -31,7 +31,7 @@ const Formulario = ({ guardarGasto, guardarCreargasto }) => {
 
   return (
     <form onSubmit={agregarGasto}>
-      <h2>Agrgue sus gastos</h2>
+      <h2>Agregue sus gastos</h2>
 
       {error ? (
         <Error mensaje="Ambos campos son obligatorios o Presupuesto inválido" />
