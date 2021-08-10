@@ -3,8 +3,8 @@
 }
 body {
   background: #000428;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #004e92, #000428);  
-  background: linear-gradient(to right, #004e92, #000428); 
+  background: -webkit-linear-gradient(to right, #33922b, #063108);  
+  background: linear-gradient(to right, #33922b, #063108); 
   margin: 0;
   padding: 0;
   font-family: sans-serif;
