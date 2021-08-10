@@ -18,18 +18,15 @@ function App() {
     if (creargasto) {
       //agregar el nuevo presupuesto
       guardarGastos([...gastos, gasto]);
+
+      //resta del presupuesto actual
+      const presupuestoRestante = restante - gasto.cantidad;
+      guardarRestante(presupuestoRestante);
+
+      //resetear a false
+      guardarCreargasto(false);
     }
-
-    //resta del presupuesto actual
-    const presupuestoRestante = (restante) - gasto.cantidad;
-    guardarRestante(presupuestoRestante);
-
-    //resetear a false
-    guardarCreargasto(false);
-
-    //porque tengo un error al agregar restante a las dependencias del use Effect
-    // eslint-disable-next-line 
-  }, [gasto, creargasto, gastos]);
+  }, [gasto, creargasto, gastos, restante]);
 
   return (
     <div className="container">
