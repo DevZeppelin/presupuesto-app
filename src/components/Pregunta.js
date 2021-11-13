@@ -46,7 +46,7 @@ const Pregunta = ({ guardarPresupuesto, guardarRestante, actualizarPregunta }) =
           placeholder="Coloca tu presupuesto"
           onChange={definirPresupuesto}
         />
-        <input type="submit" className="u-full-width button-primary" />
+        <input type="submit" className="u-full-width button-primary" value="OK" />
       </form>
     </Fragment>
   );

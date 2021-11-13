@@ -31,7 +31,7 @@ function App() {
   return (
     <div className="container">
       <header>
-        <h1>Presupuesto App</h1>
+        <h1>Gast-App</h1>
         <div className="contenido-principal contenido">
           {/* carga condicional de un componente. muy comun por ejemplo al autenticar un usuario */}
           {mostrarpregunta ? (

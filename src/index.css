@@ -4,11 +4,11 @@
 
 body {
   background: #000428;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #3dbaca, #074549);  
-  background: linear-gradient(to right, #3dbaca, #074549); 
+  background: -webkit-linear-gradient(to right, #d02bd0, #021854);  
+  background: linear-gradient(to right, #d02bd0, #021854); 
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Roboto Mono', monospace;
 }
 header {
   margin: 30px 0;
@@ -17,9 +17,10 @@ header {
   padding:20px;
 }
 .contenido-principal {
-  background-color: rgb(202, 223, 224);
+  background-color: #1c0d3e;
   padding: 30px;
   border-radius: 20px;
+  border: #03eafc 2px solid;
 }
 .presupuesto p{
   margin-bottom: 0;
@@ -32,22 +33,23 @@ header {
   margin-bottom: 30px;
 }
 h1 {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto Mono', monospace;
   font-weight: 100;
-  color: white;
+  color: #03eafc;
   text-align: center;
   font-size: 4.8rem!important;
 }
 h2 {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto Mono', monospace;
   font-weight: 100;
-  color:#315bb4;
+  color:#03eafc;
   margin-bottom:30px;
   font-size:3rem!important;
   text-align: center;
 }
 .campo {
   margin-bottom: 2rem;
+  color: white
 }
 .error {
   text-align: center;
