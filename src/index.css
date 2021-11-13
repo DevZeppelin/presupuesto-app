@@ -105,11 +105,14 @@ h2 {
   margin:0;
 }
 .gastos-realizados li p .gasto {
-  background-color: #115675;
+  background-color: #03eafc;
+  color: #021854;
   padding: 1rem;
   min-width: 70px;
   text-align: center;
-  color:white;
+  border-radius: 10%;
+  font-weight: bolder;
+  
 }
 
 .mainImage {
