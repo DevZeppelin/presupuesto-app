@@ -32,6 +32,11 @@ header {
 #gastos {
   margin-bottom: 30px;
 }
+
+.gastos p {
+  color: white;
+}
+
 h1 {
   font-family: 'Roboto Mono', monospace;
   font-weight: 100;
