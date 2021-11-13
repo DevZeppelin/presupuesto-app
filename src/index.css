@@ -106,3 +106,17 @@ h2 {
   text-align: center;
   color:white;
 }
+
+.mainImage {
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  margin: 10px auto 40px auto ; 
+}
+
+@media (max-width: 640px) {
+  .mainImage {
+    width: 300px;
+  }
+  
+}

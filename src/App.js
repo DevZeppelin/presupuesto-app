@@ -31,7 +31,7 @@ function App() {
   return (
     <div className="container">
       <header>
-        <h1>Gast-App</h1>
+        <img src="/mainImage.png" alt="Gastapp logo" className="mainImage" /> 
         <div className="contenido-principal contenido">
           {/* carga condicional de un componente. muy comun por ejemplo al autenticar un usuario */}
           {mostrarpregunta ? (
